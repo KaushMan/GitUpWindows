@@ -36,7 +36,3 @@ matrix:
       - ./src/test/compile-src.sh #Compile python files in /src
       - pyb install_dependencies #Install Build Dependencies
       - pyb #Build
-    
-    after_script:
-      - ./generate-and-deploy-executable.sh
-      
